@@ -25,6 +25,7 @@ PRODUCT_COPY_FILES += \
   vendor/yuandao/n70/proprietary/lib/libjpeghwenc.so:system/lib/libjpeghwenc.so \
   vendor/yuandao/n70/proprietary/lib/libmediaplayerservice.so:system/lib/libmediaplayerservice.so \
   vendor/yuandao/n70/proprietary/lib/libomxvpu.so:system/lib/libomxvpu.so \
+  vendor/yuandao/n70/proprietary/lib/libomxvpu_enc.so:system/lib/libomxvpu_enc.so \
   vendor/yuandao/n70/proprietary/lib/libril-rk29-dataonly.so:system/lib/libril-rk29-dataonly.so \
   vendor/yuandao/n70/proprietary/lib/librkswscale.so:system/lib/librkswscale.so \
   vendor/yuandao/n70/proprietary/lib/librkwmapro.so:system/lib/librkwmapro.so \
@@ -35,8 +36,6 @@ PRODUCT_COPY_FILES += \
   vendor/yuandao/n70/proprietary/lib/libwpa_client.so:system/lib/libwpa_client.so \
   vendor/yuandao/n70/proprietary/lib/libyuvtorgb.so:system/lib/libyuvtorgb.so \
   vendor/yuandao/n70/proprietary/lib/registry:system/lib/registry \
-  vendor/yuandao/n70/proprietary/lib/stagefright.ver:system/lib/stagefright.ver \
-  vendor/yuandao/n70/proprietary/lib/webkit_ver:system/lib/webkit_ver \
   vendor/yuandao/n70/proprietary/etc/firmware/athtcmd_ram.bin:system/etc/firmware/athtcmd_ram.bin \
   vendor/yuandao/n70/proprietary/etc/firmware/athwlan.bin.z77:system/etc/firmware/athwlan.bin.z77 \
   vendor/yuandao/n70/proprietary/etc/firmware/bdata.SD31.bin:system/etc/firmware/bdata.SD31.bin \
@@ -64,11 +63,11 @@ PRODUCT_COPY_FILES += \
   vendor/yuandao/n70/proprietary/lib/hw/audio.primary.rk30board.so:system/lib/hw/audio.primary.rk30board.so \
   vendor/yuandao/n70/proprietary/lib/hw/audio_policy.rk30board.so:system/lib/hw/audio_policy.rk30board.so \
   vendor/yuandao/n70/proprietary/lib/hw/camera.rk30board.so:system/lib/hw/camera.rk30board.so \
-  vendor/yuandao/n70/proprietary/lib/hw/copybit.rk30board.so:system/lib/hw/copybit.rk30board.so \
   vendor/yuandao/n70/proprietary/lib/hw/gpu.rk30board.so:system/lib/hw/gpu.rk30board.so \
   vendor/yuandao/n70/proprietary/lib/hw/gralloc.rk30board.so:system/lib/hw/gralloc.rk30board.so \
   vendor/yuandao/n70/proprietary/lib/hw/hwcomposer.rk30board.so:system/lib/hw/hwcomposer.rk30board.so \
   vendor/yuandao/n70/proprietary/lib/hw/lights.rk30board.so:system/lib/hw/lights.rk30board.so \
+  vendor/yuandao/n70/proprietary/lib/hw/power.rk30xx.so:system/lib/hw/power.rk30xx.so \
   vendor/yuandao/n70/proprietary/lib/hw/sensors.rk30board.so:system/lib/hw/sensors.rk30board.so \
   vendor/yuandao/n70/proprietary/lib/egl/libEGL_mali.so:system/lib/egl/libEGL_mali.so \
   vendor/yuandao/n70/proprietary/lib/egl/libGLES_android.so:system/lib/egl/libGLES_android.so \
