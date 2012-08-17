@@ -16,6 +16,8 @@
 
 
 PRODUCT_COPY_FILES += \
+  vendor/yuandao/n70/proprietary/app/RkExplorer.apk:system/app/RkExplorer.apk \
+  vendor/yuandao/n70/proprietary/app/RkVideoPlayer.apk:system/app/RkVideoPlayer.apk \
   vendor/yuandao/n70/proprietary/lib/libMali.so:system/lib/libMali.so \
   vendor/yuandao/n70/proprietary/lib/libOMX_Core.so:system/lib/libOMX_Core.so \
   vendor/yuandao/n70/proprietary/lib/libUMP.so:system/lib/libUMP.so \
