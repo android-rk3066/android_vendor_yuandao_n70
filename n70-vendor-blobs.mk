@@ -69,7 +69,6 @@ PRODUCT_COPY_FILES += \
   vendor/yuandao/n70/proprietary/lib/hw/copybit.rk30board.so:system/lib/hw/copybit.rk30board.so \
   vendor/yuandao/n70/proprietary/lib/hw/gpu.rk30board.so:system/lib/hw/gpu.rk30board.so \
   vendor/yuandao/n70/proprietary/lib/hw/gralloc.rk30board.so:system/lib/hw/gralloc.rk30board.so \
-  vendor/yuandao/n70/proprietary/lib/hw/hwcomposer.rk30board.so:system/lib/hw/hwcomposer.rk30board.so \
   vendor/yuandao/n70/proprietary/lib/hw/lights.rk30board.so:system/lib/hw/lights.rk30board.so \
   vendor/yuandao/n70/proprietary/lib/hw/sensors.rk30board.so:system/lib/hw/sensors.rk30board.so \
   vendor/yuandao/n70/proprietary/lib/egl/libEGL_mali.so:system/lib/egl/libEGL_mali.so \
