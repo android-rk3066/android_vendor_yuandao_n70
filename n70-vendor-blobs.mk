@@ -37,7 +37,6 @@ PRODUCT_COPY_FILES += \
   vendor/yuandao/n70/proprietary/lib/libsurfaceflinger.so:system/lib/libsurfaceflinger.so \
   vendor/yuandao/n70/proprietary/lib/libsurfaceflinger_client.so:system/lib/libsurfaceflinger_client.so \
   vendor/yuandao/n70/proprietary/lib/libvpu.so:system/lib/libvpu.so \
-  vendor/yuandao/n70/proprietary/lib/libwpa_client.so:system/lib/libwpa_client.so \
   vendor/yuandao/n70/proprietary/lib/libyuvtorgb.so:system/lib/libyuvtorgb.so \
   vendor/yuandao/n70/proprietary/lib/registry:system/lib/registry \
   vendor/yuandao/n70/proprietary/lib/stagefright.ver:system/lib/stagefright.ver \
@@ -88,6 +87,4 @@ PRODUCT_COPY_FILES += \
   vendor/yuandao/n70/proprietary/bin/ntfs-3g:system/bin/ntfs-3g \
   vendor/yuandao/n70/proprietary/bin/ntfs-3g.probe:system/bin/ntfs-3g.probe \
   vendor/yuandao/n70/proprietary/bin/performance:system/bin/performance \
-  vendor/yuandao/n70/proprietary/bin/surfaceflinger:system/bin/surfaceflinger \
-  vendor/yuandao/n70/proprietary/bin/wpa_cli:system/bin/wpa_cli \
-  vendor/yuandao/n70/proprietary/bin/wpa_supplicant:system/bin/wpa_supplicant
+  vendor/yuandao/n70/proprietary/bin/surfaceflinger:system/bin/surfaceflinger
