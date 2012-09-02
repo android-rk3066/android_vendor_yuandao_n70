@@ -16,12 +16,11 @@
 
 
 PRODUCT_COPY_FILES += \
-  vendor/yuandao/n70/proprietary/lib/libEGL.so:system/lib/libEGL.so \
   vendor/yuandao/n70/proprietary/lib/libMali.so:system/lib/libMali.so \
   vendor/yuandao/n70/proprietary/lib/libOMX_Core.so:system/lib/libOMX_Core.so \
   vendor/yuandao/n70/proprietary/lib/libUMP.so:system/lib/libUMP.so \
   vendor/yuandao/n70/proprietary/lib/libapedec.so:system/lib/libapedec.so \
-  vendor/yuandao/n70/proprietary/lib/libgui.so:system/lib/libgui.so \
+  vendor/yuandao/n70/proprietary/lib/libhtml5_check.so:system/lib/libhtml5_check.so \
   vendor/yuandao/n70/proprietary/lib/libion.so:system/lib/libion.so \
   vendor/yuandao/n70/proprietary/lib/libjpeghwdec.so:system/lib/libjpeghwdec.so \
   vendor/yuandao/n70/proprietary/lib/libjpeghwenc.so:system/lib/libjpeghwenc.so \
@@ -34,7 +33,6 @@ PRODUCT_COPY_FILES += \
   vendor/yuandao/n70/proprietary/lib/libstagefright.so:system/lib/libstagefright.so \
   vendor/yuandao/n70/proprietary/lib/libstagefright_foundation.so:system/lib/libstagefright_foundation.so \
   vendor/yuandao/n70/proprietary/lib/libstagefrighthw.so:system/lib/libstagefrighthw.so \
-  vendor/yuandao/n70/proprietary/lib/libsurfaceflinger.so:system/lib/libsurfaceflinger.so \
   vendor/yuandao/n70/proprietary/lib/libvpu.so:system/lib/libvpu.so \
   vendor/yuandao/n70/proprietary/lib/libyuvtorgb.so:system/lib/libyuvtorgb.so \
   vendor/yuandao/n70/proprietary/lib/registry:system/lib/registry \
@@ -67,7 +65,6 @@ PRODUCT_COPY_FILES += \
   vendor/yuandao/n70/proprietary/lib/hw/camera.rk30board.so:system/lib/hw/camera.rk30board.so \
   vendor/yuandao/n70/proprietary/lib/hw/gpu.rk30board.so:system/lib/hw/gpu.rk30board.so \
   vendor/yuandao/n70/proprietary/lib/hw/gralloc.rk30board.so:system/lib/hw/gralloc.rk30board.so \
-  vendor/yuandao/n70/proprietary/lib/hw/hwcomposer.rk30board.so:system/lib/hw/hwcomposer.rk30board.so \
   vendor/yuandao/n70/proprietary/lib/hw/lights.rk30board.so:system/lib/hw/lights.rk30board.so \
   vendor/yuandao/n70/proprietary/lib/hw/sensors.rk30board.so:system/lib/hw/sensors.rk30board.so \
   vendor/yuandao/n70/proprietary/lib/egl/libEGL_mali.so:system/lib/egl/libEGL_mali.so \
@@ -83,4 +80,5 @@ PRODUCT_COPY_FILES += \
   vendor/yuandao/n70/proprietary/bin/ntfs-3g:system/bin/ntfs-3g \
   vendor/yuandao/n70/proprietary/bin/ntfs-3g.probe:system/bin/ntfs-3g.probe \
   vendor/yuandao/n70/proprietary/bin/performance:system/bin/performance \
-  vendor/yuandao/n70/proprietary/bin/surfaceflinger:system/bin/surfaceflinger
+  vendor/yuandao/n70/proprietary/bin/vdc:system/bin/vdc \
+  vendor/yuandao/n70/proprietary/bin/vold:system/bin/vold
